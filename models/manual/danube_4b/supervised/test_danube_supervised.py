@@ -27,7 +27,7 @@ MODEL_ID_DEFAULT = "h2oai/h2o-danube3-4b-chat"
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 # Adapter path
-DEFAULT_ADAPTER_DIR = SCRIPT_DIR.parents[3] / "outputs" / "manual" / "danube_4b" / "model_danube_supervised" / "lora_adapter"
+DEFAULT_ADAPTER_DIR = SCRIPT_DIR.parents[3] / "outputs" / "manual" / "danube_4b" / "model_danube_supervised_full" / "lora_adapter"
 # Test data from manual training prompts
 DEFAULT_VAL_ROOT = SCRIPT_DIR.parents[3] / "data" / "json" / "manual" / "supervised" / "training_prompts" / "test_unique"
 
