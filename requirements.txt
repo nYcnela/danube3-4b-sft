@@ -1,0 +1,13 @@
+torch>=2.5.1
+transformers==4.41.2
+peft==0.10.0
+trl==0.8.6
+datasets>=4.1.1
+bitsandbytes>=0.43.1
+accelerate>=0.29.3
+evaluate>=0.4.6
+rouge_score>=0.1.2
+bert-score>=0.3.13
+nltk>=3.9.1
+safetensors>=0.6.2
+sentencepiece
