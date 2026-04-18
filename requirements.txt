@@ -11,3 +11,4 @@ bert-score>=0.3.13
 nltk>=3.9.1
 safetensors>=0.6.2
 sentencepiece
+protobuf
