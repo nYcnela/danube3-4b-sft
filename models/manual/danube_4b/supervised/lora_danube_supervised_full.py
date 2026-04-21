@@ -36,8 +36,8 @@ from common.training_utils import (  # noqa: E402
 
 MODEL_ID = "h2oai/h2o-danube3-4b-chat"  # Instruct version
 
-DATA_ROOT = SCRIPT_DIR.parents[3] / "data" / "json" / "manual" / "supervised" / "training_prompts"
-OUT_DIR = SCRIPT_DIR.parents[3] / "outputs" / "manual" / "danube_4b" / "model_danube_supervised_full"
+DATA_ROOT = SCRIPT_DIR.parents[3] / "data" / "json" / "manual" / "supervised" / "training_prompts_3s"
+OUT_DIR = SCRIPT_DIR.parents[3] / "outputs" / "manual" / "danube_4b" / "model_danube_supervised_full_3s"
 
 SAFE_CTX = 8192
 
